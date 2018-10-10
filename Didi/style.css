@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    display: flex;
+}
+
+.image{
+    border: solid 2px green;
+    width: 50%;
+    height: 500px;
+}
+
+.texte{
+  border: solid 2px red;
+  width: 50%;
+  height: 500px;  
+}
+
+header,footer{
+    border: solid 4px black;
+    height: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
