@@ -1,0 +1,73 @@
+JavaScript Exercice 02
+----------------------
+
+// 1. Créez une fonction capitalize() qui accepte un argument de type String et qui la retourne avec la première lettre en majuscule et les autres en minuscule.
+// (Exemple : capitalize('dAvid') => 'David')
+// Tips : .charAt()
+
+---
+
+// 2. Créez une fonction capitalizeWord() qui accepte un argument de type String et qui la retourne avec la première lettre de chaque mot en majuscule et les autres en minuscule.
+// Tips : capitalize(), .split() & .join()
+
+---
+
+// 3. Créez une fonction isPalindrom() qui accepte un argument de type String et qui renvoi un Boolean d'après que ce soit ou pas un palindrome.
+// (Exemple : 'kayak' => true, 'David' => false)
+
+// Challenge mode : le palindrome ne tient pas compte de la casse, ni des espaces ou des virgules et autres ponctuations.
+// (Exemple : 'Was it a car or a cat I saw?' => true)
+// Tips : .replace(/[^0-9a-zA-Z]+/g, '');
+
+---
+
+// 4. Créez une function reduceTo() qui accepte une chaîne (String) et une longueur (Number) en paramètres et retourne la chaîne coupée à la longueur donnée suivie de '...'.
+
+// Challenge : Coupez uniquement sur un espace. (en allant toujours vers un texte plus court)
+
+---
+
+// 5. Créez une function sum() qui accepte un un nombre variable d'arguments en paramètres et calcule la somme totale.
+// (Exemple: sum(1, 2, 3) => 6)
+// Tips : Regardez l'objet arguments des fonctions dans la documentation JS.
+
+---
+
+// 6. Créez une fonction qui accepte deux paramètres : un texte et un chiffre allant de 1 à 6 et retournant un titre HTML correspondant
+(Exemple: title('Hello world', 2) => '<h2>Hello world</h2>')
+
+---
+
+// 7. Créez une fonction Lotto() qui revoit 6 chiffres aléatoires allant de 1 à 45 inclus.
+
+// Challenge : Il n'est plus possible de tirer deux fois le même chiffre
+// Tips : Regardez la méthode .splice() d'array ou while () + .indexOf()
+
+---
+
+// 8. Créez un bouton qui conserve le nombre de fois qu'on l'a cliqu" et affiche dans un H1 'Vous avez cliqué X fois.'.
+
+---
+
+// 9. Créer un compte à rebours au format DD:HH:MM:SS
+Tips : Date(), Modulo, setInterval()
+
+---
+
+// 10. Créez un Roller coaster HTML (uniquement montant)
+(Exemple : Le texte devient plus grand à chaque lettre)
+// Tips : <span style="font-size: 110%">...
+
+// Challenge : Créez un Roller coaster HTML avec 3 paramètres supplémentaires ; minPourcentage, maxPourcentage et incrément
+
+---
+
+// 11. Validez la soumission d'un formulaire (2 champs : Code postal et Email + 1 bouton) en réutilisant 
+isValidPostalCode() et isValidMail() de la première série d'exercices.
+// Tips : e.preventDefault(), .value, #monForm.submit()
+
+---
+
+// 12. Récupérez les valeurs sélectionnées d'un select, d'un input type radio et d'un input type checkbox via un bouton
+
+---
